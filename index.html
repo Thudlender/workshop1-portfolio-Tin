@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Tinnapaht's portfolio</title>
+
+</head>
+
+<body>
+
+  <!-- <h1>Tinnapaht Chindarat</h1> -->
+  <!-- header Section -->
+
+  <header>
+
+    <div class="container">
+      <nav>
+        <img src="images/1639383704618.png" alt="logo" class="logo" />
+        <ul>
+          <li>
+
+            <a href="http://">Home</a>
+          </li>
+          <li><a href="http://">About</a></li>
+          <li> <a href="http://">Services</a></li>
+          <li><a href="http://">portfolio</a></li>
+          <li><a href="http://">Contact</a></li>
+
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi, I'm <span>Tinnapaht Chindarat</span> <br /> From Npru</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+
+  <div class="about">
+
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/IMG20230123095604.jpg" alt="user">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Hi! My name is Tinnapaht. You could call me "Tin". I'm 19 years old. Currently, i'm studying about
+            Software Engineering. I can help others by help people with english, so they could read and undrstand
+            the meaning and how the words pronouns, so they would not missunderunderstood the words. Personaly
+            i'm friendly. I like to have fun with my life. I like doing new things. and to be positive, cause it's good
+            for your health :).
+          </p>
+          <div class="tab-title">
+            <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-link" onclick="opentab('experience')">Experience</p>
+            <p class="tab-link" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-content  active-tab" id="skills">
+            <ul>
+              <li><span> UX/UI and HTML,CSS</span> <br /> Design Web/app interface</li>
+              <li><span>javascript</span> <br />Currently studying Javasrip language.</li>
+              <li><span>Figma</span> <br />Knowledge of using Figma to design web pages</li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><span>2003</span> <br />ลืมตาดูโลก</li>
+              <li><span>2015</span> <br />เรียนอย่างเดียวชีวิตวน Loop กินข้าวอาบน้ำนอน</li>
+              <li><span>2023</span> <br />กำลังศึกษาอยู่ที่สาขา Software Engineer ที่มหาวิยาลัย NPRU</li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="education">
+            <ul>
+              <li><span>มัธยมต้น</span> <br />วิทย์-คณิต</li>
+              <li><span>มัธยมปลาย</span> <br />อังกฤษ-คณิต</li>
+              <li><span>มหาวิทยาลัย</span> <br />Sofware Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services/Project Section -->
+  <div class="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div class="services-item">
+          <i><i class="fa-solid fa-code"></i> </i>
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur amet suscipit, earum adipisci porro, repellat culpa
+            accusamus ullam dolores ipsam aut fugit quis voluptas obcaecati
+            tempore labore. A, nisi molestias.
+          </p>
+          <a href="#">Learn more ...</a>
+        </div>
+        <div class="services-item">
+          <i><i class="fa-solid fa-crop"></i> </i>
+          <h2>UX/UI Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur amet suscipit, earum adipisci porro, repellat culpa
+            accusamus ullam dolores ipsam aut fugit quis voluptas obcaecati
+            tempore labore. A, nisi molestias.
+          </p>
+          <a href="#">Learn more ...</a>
+        </div>
+        <div class="services-item">
+          <i><i class="fa-brands fa-app-store"></i> </i>
+          <h2>App Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur amet suscipit, earum adipisci porro, repellat culpa
+            accusamus ullam dolores ipsam aut fugit quis voluptas obcaecati
+            tempore labore. A, nisi molestias.
+          </p>
+          <a href="#">Learn more ...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio Section -->
+  <div class="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Works</h1>
+      <div class="works-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="work-1" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              officiis odio, error architecto maiores explicabo enim odit
+              recusandae quae nihil autem labore ipsam ex fugiat eaque unde
+              officia. Blanditiis, distinctio.
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="work-2" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              officiis odio, error architecto maiores explicabo enim odit
+              recusandae quae nihil autem labore ipsam ex fugiat eaque unde
+              officia. Blanditiis, distinctio.
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="work-3" />
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              officiis odio, error architecto maiores explicabo enim odit
+              recusandae quae nihil autem labore ipsam ex fugiat eaque unde
+              officia. Blanditiis, distinctio.
+            </p>
+            <a href="#">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <i class="fa-solid fa-paper-plane"></i>654259027@webmail.npru.ac.th
+          </p>
+          <p><i class="fa-solid fa-phone"></i>096-2616469</p>
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+          </div>
+          <a href="download/my-cv.pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="text" name="email" placeholder="Your Email" required />
+            <textarea name="message" id="message" rows="6"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+  <div class="copyright">
+    <p>
+      Copyright <i class="fa-regular fa-copyright"></i> Tinnapaht. Made with
+      <i class="fa-solid fa-hand"></i> ,
+      <i class="fa-regular fa-keyboard"> </i> and
+      <i class="fa-solid fa-computer-mouse"></i> by Tinnapaht Chindarat
+    </p>
+  </div>
+
+  <script>
+    const tablinks = document.getElementsByClassName("tab-link");
+    const tabcontents = document.getElementsByClassName("tab-content");
+    const opentab = (tabname) => {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    };
+  </script>
+</body>
+
+</html>
